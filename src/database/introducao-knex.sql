@@ -11,3 +11,6 @@ CREATE TABLE songs (
     band_id TEXT NOT NULL,
     FOREIGN KEY (band_id) REFERENCES bands (id)
 );
+
+SELECT * FROM bands
+WHERE 
