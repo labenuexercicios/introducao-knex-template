@@ -1,0 +1,21 @@
+GET http://localhost:3003/ping
+###
+GET http://localhost:3003/bands
+###
+POST http://localhost:3003/bands
+Content-Type: application/json
+
+{
+    "id": "b002",
+    "name": "Nirvana"
+}
+###
+
+PUT http://localhost:3003/bands/b001
+Content-Type: application/json
+
+{
+    "newId": "b001",
+    "newName": "SoParaContrariar"
+}
+###
